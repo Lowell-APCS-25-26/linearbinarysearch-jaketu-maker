@@ -64,7 +64,7 @@ public class Sketch {
     if(store[guess].getCatNum() == catNumToFind){
       return store[guess].getInventory();
     }
-    if(nLow >= nHigh){
+    if(nLow > nHigh){
       return -1;
     }
   
